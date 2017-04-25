@@ -145,6 +145,8 @@ public class Builder {
             builder.setLargeIcon(options.getIconBitmap());
         }
 
+        builder.setPriority(NotificationCompat.PRIORITY_HIGH);
+
         applyDeleteReceiver(builder);
         applyContentReceiver(builder);
 
